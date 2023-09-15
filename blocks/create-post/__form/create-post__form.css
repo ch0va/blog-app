@@ -1,0 +1,19 @@
+.create-post__form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 12px;
+  background-color: #f9d2ff;
+  padding: 32px;
+  border-radius: 24px;
+}
+
+@media (max-width: 1000px) {
+  .create-post__form {
+    gap: 12px;
+    margin-top: 6px;
+    background-color: #f9d2ff;
+    padding: 16px;
+    border-radius: 12px;
+  }
+}

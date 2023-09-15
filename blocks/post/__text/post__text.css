@@ -1,0 +1,13 @@
+.post__text {
+  font-size: 24px;
+  color: #4a006d;
+  font-weight: 300;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+@media (max-width: 1000px) {
+  .post__text {
+    font-size: 12px;
+  }
+}

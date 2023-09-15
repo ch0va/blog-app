@@ -1,0 +1,19 @@
+.input-text__counter {
+  top: 0;
+  bottom: 0;
+  left: auto;
+  right: 12px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  font-size: 32px;
+  opacity: 50%;
+}
+
+@media (max-width: 1000px) {
+  .input-text__counter {
+    font-size: 16px;
+    right: 6px;
+  }
+}

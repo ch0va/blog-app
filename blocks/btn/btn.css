@@ -1,0 +1,23 @@
+.btn {
+  font-family: inherit;
+  font-size: 32px;
+  font-weight: 300;
+  border-radius: 12px;
+  border: 0 solid;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.btn:active {
+  box-shadow: 0 0 0;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+@media (max-width: 1000px) {
+  .btn {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,13 @@
+.create-post {
+  display: flex;
+  max-width: 50%;
+  flex-direction: column;
+}
+
+
+@media (max-width: 1000px) {
+    .create-post {
+        max-width: 100%;
+        width: 100%;
+      }
+}

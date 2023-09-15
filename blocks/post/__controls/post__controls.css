@@ -1,0 +1,11 @@
+.post__controls {
+  display: flex;
+  gap: 24px;
+}
+
+@media (max-width: 1000px) {
+  .post__controls {
+    display: flex;
+    gap: 12px;
+  }
+}

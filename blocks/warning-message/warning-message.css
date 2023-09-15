@@ -1,0 +1,13 @@
+.warning-message {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 20px;
+  color: #f10090;
+}
+
+@media (max-width: 1000px) {
+  .warning-message {
+    margin-top: 6px;
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,22 @@
+.input-text_warning {
+  animation: warning 400ms;
+}
+
+@keyframes warning {
+  25% {
+    transform: translate(4px);
+    color: #f10090;
+  }
+  50% {
+    transform: translate(-4px);
+    color: #f10090;
+  }
+  75% {
+    transform: translate(4px);
+    color: #f10090;
+  }
+  100% {
+    transform: translate(0px);
+    color: #f10090;
+  }
+}

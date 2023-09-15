@@ -1,0 +1,13 @@
+.post__data-and-time {
+  color: #7c00b5;
+  font-size: 20px;
+  width: fit-content;
+  display: inline;
+  font-weight: 300;
+}
+
+@media (max-width: 1000px) {
+  .post__data-and-time {
+    font-size: 10px;
+  }
+}

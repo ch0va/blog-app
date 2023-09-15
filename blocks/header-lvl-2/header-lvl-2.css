@@ -1,0 +1,12 @@
+.header-lvl-2 {
+  font-size: 64px;
+  font-weight: 500;
+  color: #2d0042;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .header-lvl-2 {
+    font-size: 32px;
+  }
+}

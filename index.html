@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="resources/objects/favicon.ico"
+      type="image/x-icon" />
+
+    <link rel="stylesheet" href="index.css" />
+    <title>Blog app</title>
+  </head>
+  <body class="page">
+    <main class="main">
+      <section class="create-post">
+        <h2 class="header-lvl-2">Новый пост</h2>
+        <div class="create-post__form">
+          <div class="input-text">
+            <textarea
+              rows="1"
+              placeholder="Заголовок"
+              name="text"
+              maxlength="100"
+              class="input-text__field input-text__field_header "></textarea>
+            <span class="input-text__counter input-text__counter_header"></span>
+          </div>
+
+          <div class="input-text">
+            <textarea
+              rows="1"
+              placeholder="Текст поста"
+              name="text"
+              maxlength="200"
+              class="input-text__field input-text__field_text"></textarea>
+            <span class="input-text__counter input-text__counter_text"></span>
+          </div>
+
+          <button
+            type="submit"
+            id="newPostBtn"
+            class="create-post__btn-pub btn">
+            Опубликовать
+          </button>
+        </div>
+      </section>
+
+      <section class="line">
+        <h2 class="header-lvl-2">Лента</h2>
+        <ul class="line__posts">
+
+         
+        </ul>
+      </section>
+    </main>
+    <script src="blocks/date/date.js"></script>
+    <script src="blocks/input-text/input-text.js"></script>
+    <script src="blocks/create-post/create-post.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

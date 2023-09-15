@@ -1,0 +1,16 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #f9d2ff;
+  padding: 32px;
+  border-radius: 24px;
+}
+
+@media (max-width: 1000px) {
+  .post {
+    gap: 8px;
+    padding: 16px;
+    border-radius: 12px;
+  }
+}

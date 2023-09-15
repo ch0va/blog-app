@@ -1,0 +1,39 @@
+@import url(blocks/reset/reset.css);
+
+@import url("https://fonts.cdnfonts.com/css/comic-helvetic");
+
+@import url(blocks/html/html.css);
+
+@import url(blocks/scrollbar/scrollbar.css);
+
+@import url(blocks/btn/btn.css);
+
+@import url(blocks/header-lvl-2/header-lvl-2.css);
+@import url(blocks/header-lvl-3/header-lvl-3.css);
+
+@import url(blocks/input-text/input-text.css);
+@import url(blocks/input-text/__field/input-text__field.css);
+@import url(blocks/input-text/__counter/input-text__counter.css);
+@import url(blocks/input-text/_warning/input-text_warning.css);
+@import url(blocks/input-text/__field/_incorrect/input-text__field_incorrect.css);
+
+@import url(blocks/warning-message/warning-message.css);
+
+@import url(blocks/create-post/create-post.css);
+@import url(blocks/create-post/__btn-pub/create-post__btn-pub.css);
+@import url(blocks/create-post/__form/create-post__form.css);
+
+@import url(blocks/line/line.css);
+@import url(blocks/line/__posts/line__posts.css);
+
+@import url(blocks/main/main.css);
+
+@import url(blocks/page/page.css);
+
+@import url(blocks/post/post.css);
+@import url(blocks/post/__btn/post__btn.css);
+@import url(blocks/post/__footer/post__footer.css);
+@import url(blocks/post/__data-and-time/post__data-and-time.css);
+@import url(blocks/post/__header/post__header.css);
+@import url(blocks/post/__text/post__text.css);
+@import url(blocks/post/__controls/post__controls.css);

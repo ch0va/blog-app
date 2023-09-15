@@ -1,0 +1,24 @@
+.post__btn {
+  font-family: inherit;
+  color: #7c00b5;
+  font-size: 20px;
+  font-weight: 300;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.post__btn:hover {
+    color: #9500da;
+}
+
+.post__btn:active {
+    color: #4a006d;
+}
+
+@media (max-width: 1000px) {
+  .post__btn {
+    font-size: 10px;
+  }
+}

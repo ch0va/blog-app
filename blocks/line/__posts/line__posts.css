@@ -1,0 +1,19 @@
+.line__posts {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0 24px 0 0;
+  max-height: calc(100vh - 192px);
+  overflow-y: scroll;
+}
+
+@media (max-width: 1000px) {
+  .line__posts {
+    margin-top: 6px;
+    gap: 12px;
+    padding: 0 12px 0 0;
+    max-height: calc(100vh - 96px);
+    overflow-y:visible;
+  }
+}

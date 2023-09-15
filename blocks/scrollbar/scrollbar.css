@@ -1,0 +1,22 @@
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+  background-color: #c039d4;
+}
+
+@media (max-width: 1000px) {
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+  }
+}
