@@ -9,6 +9,7 @@ btnPublic.addEventListener(`click`, function () {
     const post = getPost();
     addPost(post);
     publishPosts();
+    cleanFields();
   }
 });
 
@@ -53,7 +54,6 @@ function publishPosts() {
     </li>`;
   });
   line.innerHTML = postsHTML;
-  cleanFields();
 }
 
 function cleanFields() {
