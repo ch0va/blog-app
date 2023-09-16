@@ -6,6 +6,7 @@
   border: 0 solid;
   box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
   cursor: pointer;
+  padding: 6px;
 }
 
 .btn:active {
