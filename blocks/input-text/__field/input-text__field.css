@@ -5,7 +5,7 @@
   border-radius: 12px;
   border: 0px solid;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
-  padding: 0 68px 0 12px;
+  padding: 4px 68px 4px 12px;
   overflow: hidden;
   resize: none;
   max-width: 400px;
@@ -17,8 +17,8 @@
 
 @media (max-width: 1000px) {
   .input-text__field {
-    font-size: 16px;
-    padding: 0 34px 0 6px;
+    font-size: 24px;
+    padding: 4px 48px 0 12px;
     width: 100%;
     max-width: 100%;
   }

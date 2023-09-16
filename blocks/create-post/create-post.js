@@ -32,7 +32,7 @@ function isInputNotEmpty(input) {
 }
 
 function addPost(postObject) {
-  posts.push(postObject);
+  posts.unshift(postObject);
 }
 
 function getPosts() {
@@ -53,4 +53,12 @@ function publishPosts() {
     </li>`;
   });
   line.innerHTML = postsHTML;
+  cleanFields();
+}
+
+function cleanFields() {
+  inputHeader.value = ``;
+  inputText.value = ``;
+  inputTextCounter.innerHTML = null;
+  inputHeaderCounter.innerHTML = null;
 }

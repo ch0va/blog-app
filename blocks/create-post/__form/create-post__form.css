@@ -10,10 +10,10 @@
 
 @media (max-width: 1000px) {
   .create-post__form {
-    gap: 12px;
+    gap: 16px;
     margin-top: 6px;
     background-color: #f9d2ff;
     padding: 16px;
-    border-radius: 12px;
+    border-radius: 16px;
   }
 }

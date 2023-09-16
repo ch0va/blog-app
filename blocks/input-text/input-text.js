@@ -1,11 +1,11 @@
 const inputHeader = document.querySelector(`.input-text__field_header`);
 const inputText = document.querySelector(`.input-text__field_text`);
 
-const inputHeaderName = document.querySelector(`.input-text__counter_header`);
+const inputHeaderCounter = document.querySelector(`.input-text__counter_header`);
 const inputTextCounter = document.querySelector(`.input-text__counter_text`);
 
 inputHeader.addEventListener("input", function () {
-  processingOverLimit(this, inputHeaderName);
+  processingOverLimit(this, inputHeaderCounter);
 });
 
 inputText.addEventListener("input", function () {
